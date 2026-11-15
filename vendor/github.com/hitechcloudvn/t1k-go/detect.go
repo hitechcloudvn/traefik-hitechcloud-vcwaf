@@ -6,10 +6,10 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/chaitin/t1k-go/detection"
-	"github.com/chaitin/t1k-go/t1k"
+	"github.com/hitechcloudvn/t1k-go/detection"
+	"github.com/hitechcloudvn/t1k-go/t1k"
 
-	"github.com/chaitin/t1k-go/misc"
+	"github.com/hitechcloudvn/t1k-go/misc"
 )
 
 func writeDetectionRequest(w io.Writer, req detection.Request) error {

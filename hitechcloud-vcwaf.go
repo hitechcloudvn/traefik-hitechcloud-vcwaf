@@ -8,10 +8,11 @@ import (
 	"os"
 	"sync"
 
-	t1k "github.com/hitechcloud-vietnam/t1k-go"
+	t1k "github.com/hitechcloudvn/t1k-go"
 )
 
-// Package example a example plugin.
+// Package traefik_hitechcloud_vcwaf implements a Traefik middleware plugin that
+// detects and blocks malicious HTTP requests via a HiTechCloud vCWAF detector.
 
 // Config the plugin configuration.
 type Config struct {

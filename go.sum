@@ -1,4 +1,4 @@
-github.com/chaitin/t1k-go v1.5.0 h1:QoeCs22KHt/mGBwjJE/zVSE4FwzSmaHZD6Iu7j/I1fo=
-github.com/chaitin/t1k-go v1.5.0/go.mod h1:8GpSRmZZwJHYOROWP3rVK//f3HzDhryruH2Y4pFupq0=
+github.com/hitechcloudvn/t1k-go v1.5.0 h1:0M5Ei46MrXmJIOrR1cmQPMm+Pvi4mT9F9l2xDsCazoc=
+github.com/hitechcloudvn/t1k-go v1.5.0/go.mod h1:XGQm0gcvqGptSe4RUExEPTFGmEG6z6xdCrMfwlGh9vo=
 golang.org/x/xerrors v0.0.0-20231012003039-104605ab7028 h1:+cNy6SZtPcJQH3LJVLOSmiC7MMxXNOb3PU/VUEz+EhU=
 golang.org/x/xerrors v0.0.0-20231012003039-104605ab7028/go.mod h1:NDW/Ps6MPRej6fsCIbMTohpP40sJ/P/vI1MoTEGwX90=

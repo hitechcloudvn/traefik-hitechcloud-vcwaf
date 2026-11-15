@@ -51,7 +51,7 @@ func (r *Result) BlockMessage() map[string]interface{} {
 	return map[string]interface{}{
 		"status":   r.StatusCode(),
 		"success":  false,
-		"message":  "blocked by Chaitin SafeLine Web Application Firewall",
+		"message":  "blocked by HiTechCloud vCWAF Web Application Firewall",
 		"event_id": r.EventID(),
 	}
 }

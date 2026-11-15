@@ -1,6 +1,8 @@
+> **English** | [Tiếng Việt](README.vi.md)
+
 # Traefik Plugin HiTechCloud vCWAF
 
-This plugin is a middleware for Traefik that can be used to detect and block malicious requests which base on the [HiTechCloud vCWAF](https://hitechwaf.vn/) engine.
+This plugin is a middleware for Traefik that detects and blocks malicious requests based on the [HiTechCloud vCWAF](https://hitechwaf.vn/) engine.
 
 ## HiTechCloud vCWAF Prepare
 The detection engine of HiTechCloud vCWAF provides services by default via Unix socket. We need to modify it to use TCP, so it can be called by the t1k plugin.
@@ -64,7 +66,7 @@ The following declaration (given here in YAML) defines a plugin:
 experimental:
   plugins:
     hitechcloud-vcwaf:
-      moduleName: github.com/hitechcloud-vietnam/traefik-hitechcloud-vcwaf
+      moduleName: github.com/hitechcloudvn/traefik-hitechcloud-vcwaf
       version: v1.0.0
 ```
 
